@@ -2,15 +2,15 @@ import styled, { createGlobalStyle } from "styled-components";
 
 // created Global Style, removed margin and paddings, set box-sizing border-box
 export const GlobalStyle = createGlobalStyle`
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
   `;
 
 const StyledApp = styled.div`

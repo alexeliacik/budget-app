@@ -129,7 +129,7 @@ export default App;
 // TODO
 // let user to change spending and or income for each month
 // let user to add another months and/or years
-// show user current date=
+// show user to see current date
 // show user average spending and/or income
 // let user to add spend limit and show how far user from the maximum limit
 // show user how much he/she saved if did not hit maximum spend limit
