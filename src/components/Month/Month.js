@@ -21,7 +21,7 @@ const Month = ({ data, selectMonth }) => {
                 // adjusted bar height according to spending
                 height={`calc(${
                   month.spending / data.overall_budget
-                }*40vh - 52px)`}
+                }*40vh - 55px)`}
               >
                 &nbsp;
               </ChartBar>
@@ -30,7 +30,7 @@ const Month = ({ data, selectMonth }) => {
                 backgroundColor="#0CE381"
                 height={`calc(${
                   month.income / data.overall_budget
-                }*40vh - 52px)`}
+                }*40vh - 55px)`}
               >
                 &nbsp;
               </ChartBar>

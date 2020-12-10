@@ -9,9 +9,9 @@ export const BudgetBar = styled.div`
   height: 76px;
   // height of budget bar is depens on "overall_budget"
   /* bottom: ${({ budgetHeight }) => budgetHeight}; */
-  top: calc(50% - 40px);
-  transform: translateY(-50%);
-  left: 1%;
+  top: calc(50% - 38px);
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #fff;
 
   // becomes budget bar
