@@ -15,11 +15,11 @@ const SelectedMonthInfo = ({ data }) => {
           // filtered non isSelected months in order to show selected one
 
           .filter((month) => month.isSelected)
-          .map((m) => {
+          .map((month) => {
             return (
-              <div key={m.name}>
+              <div key={month.name}>
                 <Text fontSize="30px" fontWeight="bold">
-                  {m.name}
+                  {month.name}
                 </Text>
                 <SelectedMonthInfoBox>
                   <SelectedMonthInfoSmallBox backgroundColor="#428DFC">
@@ -33,7 +33,7 @@ const SelectedMonthInfo = ({ data }) => {
                     >
                       $
                     </Text>
-                    <CountUp end={m.spending} duration={0.7}></CountUp>
+                    <CountUp end={month.spending} duration={0.7}></CountUp>
                   </SelectedMonthInfoSmallBox>
                   <SelectedMonthInfoSmallBox backgroundColor="#0CE381">
                     <Text fontSize="20px">Income</Text>
@@ -46,7 +46,7 @@ const SelectedMonthInfo = ({ data }) => {
                     </Text>
 
                     {/* animated digits with CountUp */}
-                    <CountUp end={m.income} duration={0.7}></CountUp>
+                    <CountUp end={month.income} duration={0.7}></CountUp>
                   </SelectedMonthInfoSmallBox>
                 </SelectedMonthInfoBox>
               </div>

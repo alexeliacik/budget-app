@@ -19,14 +19,18 @@ const Month = ({ data, selectMonth }) => {
                 id={month.id}
                 backgroundColor="#428DFC"
                 // adjusted bar height according to spending
-                height={`${month.spending / 33.33}vh`}
+                height={`calc(${
+                  month.spending / data.overall_budget
+                }*40vh - 52px)`}
               >
                 &nbsp;
               </ChartBar>
               <ChartBar
                 id={month.id}
                 backgroundColor="#0CE381"
-                height={`${month.income / 33.33}vh`}
+                height={`calc(${
+                  month.income / data.overall_budget
+                }*40vh - 52px)`}
               >
                 &nbsp;
               </ChartBar>

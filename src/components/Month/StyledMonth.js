@@ -12,9 +12,9 @@ export const MonthName = styled.h1`
   background-color: ${({ isSelected }) => (isSelected ? "#fff" : "none")};
   border-radius: 10px;
   font-weight: 400;
+  height: 25px;
   padding: 10px 15px 0 15px;
   margin: 10px 0;
-  height: 25px;
   line-height: 15px;
 `;
 

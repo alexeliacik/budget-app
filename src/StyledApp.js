@@ -19,7 +19,7 @@ const StyledApp = styled.div`
   align-items: flex-end;
   justify-content: space-around;
   background-color: #172041;
-  height: 65vh;
+  height: 80vh;
   padding: 0 15% 0 10%;
   margin: 20px 15px;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.9);

@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 
 const animateWidget = keyframes`
-  from{opacity:0; transform: scale(0.98) translateY(5px)}
+  from{opacity:0; transform: scale(0.9) translateY(5px)}
   to{opacity:1; transform: translateY(0)}
 `;
 

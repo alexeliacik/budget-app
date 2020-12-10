@@ -6,19 +6,20 @@ export const BudgetBar = styled.div`
   align-items: flex-end;
   flex-direction: column;
   width: 98%;
-
+  height: 76px;
   // height of budget bar is depens on "overall_budget"
-  bottom: ${({ budgetHeight }) => budgetHeight};
+  /* bottom: ${({ budgetHeight }) => budgetHeight}; */
+  top: calc(50% - 40px);
+  transform: translateY(-50%);
   left: 1%;
   color: #fff;
-  margin-bottom: 65px;
 
   // becomes budget bar
   &::after {
     content: "";
     display: block;
     position: absolute;
-    bottom: -10px;
+    bottom: 0;
     width: 100%;
     height: 2px;
     background-color: #fff;

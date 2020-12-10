@@ -10,7 +10,7 @@ function App() {
     spending: [
       {
         month: 10,
-        spending: 700,
+        spending: 650,
       },
       {
         month: 9,
